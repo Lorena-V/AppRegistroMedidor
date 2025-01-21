@@ -57,6 +57,8 @@ dependencies {
     implementation(libs.androidx.material3.android)
     implementation(libs.support.annotations)
     implementation(libs.junit)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
