@@ -22,6 +22,9 @@ room-runtime = {group ="androidx.room", name ="room-runtime", version.ref = "roo
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-annotation-processor = {group = "androidx.room", name = "room-compiler", version.ref = "room"}
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-material-icons-core = { group = "androidx.compose.material", name = "material-icons-core", version.ref = "foundationAndroid" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "foundationAndroid" }
+
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

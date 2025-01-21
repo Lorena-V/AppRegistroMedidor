@@ -76,6 +76,10 @@ dependencies {
     ksp(libs.room.annotation.processor)
     //annotationProcessor(libs.room.annotation.processor)
 
+    // Íconos de Material Design
+    implementation(libs.androidx.material.icons.core)
+    implementation(libs.androidx.material.icons.extended)
+
 
     //annotationProcessor("androidx.room:room-compiler:$room_version")
 
