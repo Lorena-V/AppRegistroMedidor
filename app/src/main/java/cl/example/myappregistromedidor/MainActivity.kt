@@ -113,6 +113,7 @@ fun AppRegistrosUI(
 fun OpcionesTiposUi( onTipoSeleccionado: (String) -> Unit ){
     val tipos = listOf("Agua", "Luz", "Gas")
     var tipoSeleccionado by rememberSaveable { mutableStateOf(tipos[0]) }
+
     Column(Modifier.selectableGroup()) {
         tipos.forEach { text ->
             Row(
@@ -186,7 +187,6 @@ fun PantallaFormRegistro(
         }) {
             Text("Registrar Medición")
         }
-
     }
 }
 

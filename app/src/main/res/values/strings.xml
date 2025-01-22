@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyAppRegistroMedidor</string>
+    <string name="app_name">App Registro Medidor</string>
+    <string name="btn_registrar_medidor" >Registrar Medidor</string>
 </resources>
